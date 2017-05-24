@@ -1,0 +1,10 @@
+.bundle
+db/*.sqlite3
+log/*.log
+tmp/
+doc
+public/uploads/
+index/
+.DS_Store
+.cache_*
+*.sh

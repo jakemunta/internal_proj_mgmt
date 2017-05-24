@@ -1,0 +1,43 @@
+# == Schema Information
+# Schema version: 20110503080934
+#
+# Table name: users
+#
+#  id                 :integer         not null, primary key
+#  name               :string(255)
+#  email              :string(255)
+#  encrypted_password :string(255)
+#  salt               :string(255)
+#  created_at         :datetime
+#  updated_at         :datetime
+#  persistence_token  :string(255)
+#  locale             :string(255)
+#  role               :string(255)
+#
+
+# Read about fixtures at http://ar.rubyonrails.org/classes/Fixtures.html
+
+daqing:
+  name: daqing
+  email: daqing@demo.com
+  salt: <%= salt = Authlogic::Random.hex_token %>
+  encrypted_password: <%= Authlogic::CryptoProviders::Sha512.encrypt("foobar" + salt) %>
+  persistence_token: <%= Authlogic::Random.hex_token %>
+  role: root
+
+two:
+  name: two
+  email: two@demo.com
+  salt: <%= salt = Authlogic::Random.hex_token %>
+  encrypted_password: <%= Authlogic::CryptoProviders::Sha512.encrypt("two" + salt) %>
+  persistence_token: <%= Authlogic::Random.hex_token %>
+  role: Developer
+
+nana:
+  name: nana
+  email: nana@demo.com
+  salt: <%= salt = Authlogic::Random.hex_token %>
+  encrypted_password: <%= Authlogic::CryptoProviders::Sha512.encrypt("nana" + salt) %>
+  persistence_token: <%= Authlogic::Random.hex_token %>
+  role: Developer
+

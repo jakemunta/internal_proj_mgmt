@@ -1,0 +1,25 @@
+# == Schema Information
+# Schema version: 20110520082002
+#
+# Table name: milestones
+#
+#  id         :integer         not null, primary key
+#  project_id :integer
+#  name       :string(255)
+#  due_date   :date
+#  created_at :datetime
+#  updated_at :datetime
+#
+
+# Read about fixtures at http://ar.rubyonrails.org/classes/Fixtures.html
+
+<% today = Date.today %>
+one:
+  project: internalprojmgmt
+  name: beta release
+  due_date: <%= (today + 20).to_s %>
+
+two:
+  project: internalprojmgmt
+  name: 1.0
+  due_date: <%= (today + 99).to_s %>

@@ -1,0 +1,190 @@
+# Sample localization file for English. Add more files in this directory for other locales.
+# See http://github.com/svenfuchs/rails-i18n/tree/master/rails%2Flocale for starting points.
+
+en:
+  home: Home
+  dashboard: Dashboard
+  welcome: Welcome to Internal Proj Mgmt!
+  welcome_user: Welcome, %{username}
+  sudo: SuperUser
+  stats: Statistics
+  log_in: Sign In
+  log_out: Log Out
+  all_projects: Projects
+  my_assigned_issues: My Assigned Issues
+  feed: Site Feed
+  what_are_you_doing: What are you doing
+  save: Save
+  publish: Publish
+  issues_i_follow: Issues I follow
+  issues_i_commented: Issues I commented
+  drag_issue_to_sort_priority: Drag an issue to sort priority
+  all_users: All Users
+  get_source_code: Source Code
+  blog: Blog
+  new_project: New Project
+  create_project: Create Project
+  project_name: Project Name
+  projects: Projects
+  people: People
+  new_issue: New Issue
+  issues: Issues
+  issue_state: State
+  click_to_view: Click to view this issue
+  click_to_filter_issues: Click to filter issues
+  search_issues: Search Issues
+  ago: " ago"
+  me: Me
+
+  my_profile: My Profile
+
+  title: Title
+  content: Content
+  add: Add
+  edit: Edit
+  update: Update
+  updated: Updated
+  delete: Delete
+  delete_confirm: Really?
+  delete_user: Delete User
+
+  upload: Upload
+
+  recently_created_issues: Recently Created Issues
+
+  add_to_content: Add to Content
+
+  todo: TODO
+
+  issue:
+    state:
+      total: Total
+      open: Open
+      working_on: Working On
+      paused: Paused
+      finished: Finished
+      closed: Closed
+      invalid: Invalid
+      ignored: Ignored
+      reopened: Re-opened
+    event:
+      work_on: Start Working On
+      pause: Pause
+      continue: Continue
+      mark_invalid: Mark as Invalid
+      ignore: Ignore
+      mark_finished: Mark as Finished
+      reopen: Re-Open
+      close: Close
+    assignment:
+      assigned_to: 'Issue Assigned to '
+      not_assigned: No One Assigned
+      assign_to: Assign To
+    workflow:
+      current_state: Currently
+    discussions: Discussions
+    create_comment: Add Comment
+    create: Create a New Issue
+    edit: Edit Issue
+    no_issues_working_on: " has no issues working on "
+    user_is_working_on: " is working on "
+    user_is_working_on_the_following: " is working on the following issues:"
+    issues_assigned_to: "Issues Assigned to %{username}"
+    default_content: see TODOs
+    label:
+      task: Task
+      bug: Bug
+      idea: Idea
+
+  image:
+    upload: Upload Images
+
+  register: Register
+  username: User Name
+  password: Password
+  password_confirmation: Confirm Password
+  create_user: Create User
+  
+  search:
+    results: Search Results
+    no_issue_found: Nothing found
+
+  account: Account
+  account_settings: Settings
+  default_locale: Locale
+
+  role:
+    name: Role
+    ProjectManager: PM
+    Developer: Developer
+    Designer: Designer
+    SystemAdministrator: SA
+    Marketer: Marketer
+
+  action:
+    successfully: " successfully"
+    failed: " failed"
+
+  permission:
+    cannot_assign_issue: "You have *NO* permission to assign this issue"
+    cannot_update_workflow: "You don't have permission to udpate this issue's state"
+    no_permission: "You don't have permission to carry out this operation"
+
+  account_details: Account Details
+  date_joined: Joined
+
+  teamtalk: Team Talk
+  assign_to_an_user_first: To update workflow state, assign to someone first
+  
+  created_at: Created At
+  updated_at: Updated At
+  operations: Operations
+
+  activity:
+    create_project: created a project
+    create_issue:
+      idea: added idea
+      task: created task
+      bug: reported bug
+    in_project: in project %{url}
+    assigned_issue_to: assigned %{issue_url} to %{user_url}
+    changed_issue_state_as: changed %{issue_url}'s state to %{state}
+    commented_on_issue: "commented on %{issue_url}:"
+
+  no_items_right_now: No data to display
+  new_task: New Task
+  new_bug: Submit Bug
+  new_idea: Submit Idea
+  new_document: Add Document
+  edit_document: Edit Document
+
+  issue_label: Labels
+
+  project_progress: Progress
+  project_feed: Project Feed
+
+  milestone: Milestone
+  milestones: Milestones
+  new_milestone: New Milestone
+  due_date: Due Date
+  create_milestone: Create a New Milestone
+  view_all_issues: View All Issues
+  empty_option: '<None>'
+
+  team: Team
+  profile: Profile
+  all_members: Members
+
+  access_denied: Access Denied
+  cancel_planning: Cancel Planning
+  must_login_first: Please login first to continue the operation
+  project:
+    ideas: Ideas
+    tasks: Tasks
+    bugs: Bugs
+    docs: Docs
+    milestones: Milestones
+
+  views:
+    pagination:
+      truncate: "..."

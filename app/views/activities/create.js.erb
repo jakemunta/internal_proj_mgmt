@@ -1,0 +1,3 @@
+$("form#new_activity").after("<%= escape_javascript render(@activity) %>");  
+
+$("form#new_activity textarea.micro").val('').focus();
